@@ -1,0 +1,28 @@
+<H1>FasaPay E-Payment Gateway</H1>
+<?php 
+echo $block->getScurity();
+	if ($block->getPages() == 'success'){
+	?>
+Your transaction was successfully paid with FasaPay e-payment gateway ! <br />
+Payment detail:
+<table>
+	<tr>
+		<td style="width: 20%;">Nominal Payments :</td>
+		<td><h2>[<?php echo filter_input(INPUT_POST, 'fp_currency'); ?>] <?php echo filter_input(INPUT_POST, 'fp_amnt'); ?></h2></td>
+	</tr>
+</table>
+	<?php
+	}else if ($block->getPages() == 'fail'){
+	?>
+Your transaction was Failed !
+<table>
+	<tr>
+		<td>Nominal Payments :</td>
+		<td><?php echo filter_input(INPUT_POST, 'fp_amnt'); ?></td>
+	</tr>
+</table>
+	<?php	
+	}else if($block->getPages() == 'status'){
+		$block->getValidation();
+	}
+?>

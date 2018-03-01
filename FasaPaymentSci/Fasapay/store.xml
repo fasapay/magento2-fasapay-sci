@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<FasaPay>
+<FasaPayModul>
+	<storeId>FPX000</storeId>
+	<storeName>Toko X</storeName>
+	<ScurityKey>70ko3ks</ScurityKey>
+</FasaPayModul>
+</FasaPay>

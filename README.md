@@ -40,7 +40,7 @@ FasaPay ePayment module untuk MAGENTO version 2.X.X
 ```
    STORES -> Configuration -> Sales -> PaymentMethod -> Other Payment Method -> Fasapay
 ```
-![Minion](docs/Screenshot.png)
+<kbd> <img src="/docs/Screenshot.png" width="700px"/></kbd><br />
   + Fasapay Mode
   + Fasapay Id
   + Store Name

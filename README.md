@@ -3,6 +3,8 @@
 FasaPay ePayment module untuk MAGENTO version 2.X.X
 ### PROSES INSTALASI
 ---
+[![button](/docs/demostore.png)](https://magstore.fasapay.id/)
+
 1. Download module FasaPay ePayment
 2. Copy file kedalam folder Peojek_Magento_anda/app/code/
 3. Selanjutnya aktifkan module

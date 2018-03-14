@@ -36,7 +36,7 @@ class fasapay extends \Magento\Framework\View\Element\Template
 			$pages = 'success';
 			return $pages;
 		}
-		else if (filter_input(INPUT_GET, 'pages') == 'fail'){
+		else if (filter_input(INPUT_GET, 'pages') == 'failed'){
 			$pages = 'fail';
 			return $pages;
 		}

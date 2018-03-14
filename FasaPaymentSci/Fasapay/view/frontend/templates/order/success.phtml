@@ -193,11 +193,11 @@ if($block->getFasaMethod() == "fasapaymethod"){
     			<input type="hidden" name="fp_fee_mode" value="FIR" />
     			<input type="hidden" name="fp_comments" value="Pembayaran menggunakan store variable" />
     			<input type="hidden" name="fp_merchant_ref" value="<?php echo $fasa_put['protect_code']; ?>" />
-				<input type="hidden" name="fp_success_url" value="http://<?php echo $_SERVER['SERVER_NAME'];?>/magstore?pages=success" />
+				<input type="hidden" name="fp_success_url" value="http://<?php echo $_SERVER['SERVER_NAME'];?>/fasapay?pages=success" />
 				<input type="hidden" name="fp_success_method" value="POST" />
-				<input type="hidden" name="fp_fail_url" value="http://<?php echo $_SERVER['SERVER_NAME'];?>/magstore?pages=failed" />
+				<input type="hidden" name="fp_fail_url" value="http://<?php echo $_SERVER['SERVER_NAME'];?>/fasapay?pages=failed" />
 				<input type="hidden" name="fp_fail_method" value="POST" />
-				<input type="hidden" name="fp_status_url" value="http://<?php echo $_SERVER['SERVER_NAME'];?>/magstore?pages=status" />
+				<input type="hidden" name="fp_status_url" value="http://<?php echo $_SERVER['SERVER_NAME'];?>/fasapay?pages=status" />
 				<input type="hidden" name="fp_status_method" value="POST" />
     			<input type="hidden" name="order_id" value="<?php echo $fasa_put['increment_id']; ?>" />
 </form>

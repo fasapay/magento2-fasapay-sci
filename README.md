@@ -34,7 +34,7 @@ FasaPay ePayment module untuk MAGENTO version 2.X.X
             'Magento_ConfigurableImportExport' => 1,
             'Magento_Downloadable' => 1,
             'Magento_Wishlist' => 1,
-        .....
+        .......
         ),
     </pre>
 
@@ -43,7 +43,8 @@ FasaPay ePayment module untuk MAGENTO version 2.X.X
    STORES -> Configuration -> Sales -> PaymentMethod -> Other Payment Method -> Fasapay
 ```
 <kbd> <img src="/doc/Screenshot.png" width="700px"/></kbd><br />
-**Masukan Data Store Account FasaPay**
+**Masukan Data Store Account FasaPay**<br />
+Untuk mendapatkan data store account silahkan anda masuk member area FasaPay kemudian pilih menu store.<br />
   + Fasapay Mode
   + Fasapay Id
   + Store Name

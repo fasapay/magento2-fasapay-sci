@@ -14,7 +14,7 @@
                     <label>Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
-                <field id="title" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="title" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1"> 
                     <label>Title</label>
                 </field>
                 <field id="order_status" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0">
@@ -34,6 +34,7 @@
                     <label>Scurity Key</label>
 					<backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
                 </field>
+                
 				<field id="fasa_mode" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
                     <label>FasaPay Mode</label>
                     <source_model>FasaPaymentSci\Fasapay\Model\FasaAction</source_model>

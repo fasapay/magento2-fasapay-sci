@@ -37,8 +37,9 @@ FasaPay ePayment module untuk MAGENTO version 2.X.X
         .......
         ),
     </pre>
+    
 ### SETTING ADMIN AREA
-  ---
+---
 1. Seting pembayaran 
 ```
    STORES -> Configuration -> Sales -> PaymentMethod -> Other Payment Method -> Fasapay

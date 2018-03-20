@@ -50,6 +50,7 @@ Untuk mendapatkan data store account silahkan anda masuk member area FasaPay kem
 ```
     Stores -> Configuration -> Sales -> Payment Method -> Other Payment Method ->  Fasapay
 ```
+Isi field dibawah : <br />
   + Fasapay Mode
   + Fasapay Id
   + Store Name

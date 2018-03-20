@@ -1,6 +1,6 @@
 ## FasaPay E-Payent Gateway
 ---
-FasaPay ePayment module untuk MAGENTO version 2.X.X
+FasaPay e-Payment module untuk MAGENTO version 2.X.X
 ### PROSES INSTALASI
 ---
 [![button](/doc/demostore.png)](https://magstore.fasapay.id/)

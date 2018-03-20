@@ -56,4 +56,6 @@ Isi field dibawah : <br />
   + Store Name
   + Scurity Key
 
-
+### CHECKOUT AREA
+---
+<kbd> <img src="/doc/payment.jpg" width="700px"/></kbd><br />

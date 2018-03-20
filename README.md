@@ -37,7 +37,7 @@ FasaPay ePayment module untuk MAGENTO version 2.X.X
         .......
         ),
     </pre>
-  ### SETTING ADMIN AREA
+### SETTING ADMIN AREA
   ---
 1. Seting pembayaran 
 ```

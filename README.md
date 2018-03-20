@@ -37,7 +37,7 @@ FasaPay ePayment module untuk MAGENTO version 2.X.X
         .......
         ),
     </pre>
-    
+
 ### SETTING ADMIN AREA
 ---
 1. Seting pembayaran 
@@ -47,6 +47,9 @@ FasaPay ePayment module untuk MAGENTO version 2.X.X
 <kbd> <img src="/doc/Screenshot.png" width="700px"/></kbd><br />
 **Masukan Data Store Account FasaPay**<br />
 Untuk mendapatkan data store account silahkan anda masuk member area FasaPay kemudian pilih menu store.<br />
+```
+    Stores -> Configuration -> Sales -> Payment Method -> Other Payment Method ->  Fasapay
+```
   + Fasapay Mode
   + Fasapay Id
   + Store Name

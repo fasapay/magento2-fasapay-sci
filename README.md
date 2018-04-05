@@ -20,9 +20,10 @@ composer require fasapay/magento2-fasapay-sci
   **Command Line**
     * Open Terminal
     * Navigate to magento project module
-    ```bash
-      bin/magento module.enable --clear-static-content FasaPay_PaymentSci       
-    ```
+    
+```bash
+bin/magento module.enable --clear-static-content FasaPay_PaymentSci       
+```
 
  **Manual**
   * Edit file app/etc/config.php
@@ -30,6 +31,7 @@ composer require fasapay/magento2-fasapay-sci
     - 1 means module is enable
     - 0 means module is disable
   * Edit value module FasaPay_PaymentSci
+  
   ```php
     array
     .......
@@ -50,6 +52,7 @@ composer require fasapay/magento2-fasapay-sci
 ### Demo
 ---
 [![button](/docs/demostore.png)](https://magstore.fasapay.id/)
+
 You can find a demo environment [here](https://magstore.fasapay.id/). Please note that it may not be running the latest version of this module at all times.
 
 ### Setting Admin Area
@@ -64,6 +67,7 @@ You can find a demo environment [here](https://magstore.fasapay.id/). Please not
 
 **Enter your FasaPay Store Setting**
 To get your Store Setting, Please Login to FasaPay Member Area, then navigate to
+
 
 ```
   FasaPay Member Area -> Merchant Tools -> Store -> Create Store
